@@ -3,7 +3,7 @@ import db from '../db.json'
 import Widget from '../src/components/Widget'
 import QuizBackGround from '../src/components/QuizBackGround'
 import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
+import GitHubCorner from '../src/components/GitHubcorner'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
