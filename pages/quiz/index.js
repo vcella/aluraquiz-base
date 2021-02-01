@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '../src/components/Button';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import QuizLogo from '../src/components/QuizLogo';
-import AlternativesForm  from '../src/components/AlternativesForm';
-import Widget from '../src/components/Widget';
-import db from '../db.json';
+import Button from '../../src/components/Button';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import QuizLogo from '../../src/components/QuizLogo';
+import AlternativesForm  from '../../src/components/AlternativesForm';
+import Widget from '../../src/components/Widget';
+import db from '../../db.json';
 
 function ResultWidget({ results }) {
     return (
@@ -127,7 +127,8 @@ function QuestionWidget({
                         Confirmar
                     </Button>
 
-                    <p>selectedAlternative: {selectedAlternative} </p>
+                    {/* <p>selectedAlternative: {selectedAlternative} </p> */}
+
                     {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
                     {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
 
